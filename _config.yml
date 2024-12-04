@@ -2,8 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+author: 桁椽
+logo: profile-pic.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -30,3 +30,12 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_footer: |
+    <div style="text-align: center;">
+        <p>© 2024 My Project - All rights reserved</p>
+        <p>Contact: <a href="mailto:example@example.com">example@example.com</a></p>
+    </div>
+
+sphinx:
+  config:
+    html_show_copyright: false

@@ -2,8 +2,19 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: homepage
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: c1
+  sections:
+  - file: bert
+- file: c2
+  sections:
+  - file: midjourney
+- file: c3
+- file: c4
+  sections:
+  - file: runway
+- file: c5
+  sections:
+  - file: chatgpt
+- file: c6
